@@ -4,8 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-ttp://178.128.14.28:46065
-
+.hidden
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
