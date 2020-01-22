@@ -4,7 +4,7 @@ const FULL_HEART = '♥'
 
 // Your JavaScript code goes here!
 
-.hidden
+isHidden = modal.hidden;
 
 //------------------------------------------------------------------------------
 // Ignore after this point. Used only for demo purposes
@@ -15,7 +15,7 @@ function mimicServerCall(url="http://mimicServer.example.com", config={}) {
     setTimeout(function() {
       let isRandomFailure = Math.random() < .2
       if (isRandomFailure) {
-        reject("Random server error. Try again.").hidden;
+        reject("Random server error. Try again.");
       } else {
         resolve("Pretend remote server notified of action!");
       }
